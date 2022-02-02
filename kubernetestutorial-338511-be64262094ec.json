@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "kubernetestutorial-338511",
+  "private_key_id": "be64262094ec6f74f418d92cdff2c7988a1f6a3e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCbx2d4643hH1f7\n+cjEBQ6KLWRkGKzVcCqV1/dlbwK04clepGMIjVxcF5iPVAH4CUuKRKFsPA0tjuS5\nPfwB49LfUoc1NcsK5wzC5/GxD656LC1u/GnRVuLsEX1sKQ7n0M/JMtcDSDxG2rPF\nTxdkNCGQyxhB9ArriJ+2D+MquzNRn98sgvUy2wXP3HJgfqcdhzNHTg75nqozM3EU\ndf6GckCPxvt2WE3jzVfKpbBBSlNxb8dxbkaxJ9FlmoP3XIn7RBSM5QFrP+GqOCSx\n4j68k7CnnflPSFusVfJ8eEYAzB2BaVtPxExvBIEHGQfSvSSqLYwuhXN3IDhWkmUM\n+pgsif6HAgMBAAECggEAASHQ6DCr0626BiGZo04o/dW/nYZjRWJ9IS8Xx5EZr6hI\nL/grFoYZzjsVcj9uqAIxup91LDI/v9LX23c5BTzwrKhAmvaOgXlHKb3lcpg+26Pi\nN4hS2ag6fdcJlpV5IvrsyIqYGYosWfgjB1HHcCDuai7NAA1CQfJG2RTtQPxpoFd/\ny7XPGeHN2osBOUzNzeI7c7hykwFQz6O7Nfi9NqTkmnZzHE/ja0Rf3CleVfGGShLu\ndGGPsiRzVHTnEsGIsOcjnEBV+wqZSJvg5wH8yLLnfUPf+S0GZ/YQBURZbsGQu8+5\nYENuFyWWQQx2akzzD9b9nLuf9/7olIIsp5ZtkoadkQKBgQDVAR1tF7BIhtshcXTN\nEXmxQfcx/5NJ9YY4iyTNh8y73meAnvs8CSiFuXDdTPdye4W4aPQXpc2ryGhDJc4z\nw8Ar4FAvbIxXUna0nz8JlE2LCW+FOqKopNg8eXLGM7mHOS9vJYQiAcqiS9Yf0vq+\noHrrZtdfqKw8wBcLu2Ad1uTE8QKBgQC7OTInA6hMZwgwq0xi3BsfkGWqTEByzwxK\nKjTQN7a8EsgS9nq/O/P5WFy4VGcPKaJ3Uc7MgyqIgSauS0W2hfZcFjqxqVhg7uKy\ndKQ3JcELR2NjevuBliehh2+q+78pDnAMuG83SQ7z+r/OHgWSE7PwFzE9IRXRzAFt\ndCNlIMea9wKBgQCvRS6YgQCOfWE9AKXSxEl1gUlN+/aPyhd62YwcD115TYWvgaJL\ngWG1v6TOhLGso1WiK8KG3ukBLHQWpLorQC0WLYrtqw1EIVgKQmtVj5HLEaWRZHFK\nAfLouCqoSxGj4ntUovM6JG0/5NU59JpdV6Itp78bOKkZiBquja2GgDhYkQKBgFcJ\ncPJINf5Gy7zsdZdj4cwbsdeomTGGZZ0439KIhBAM3yxJn6i1c2dQl9Itkreu0FOO\nGYhj1esdt2DBp4gB4RTQVLrxEiAGDieOKCVnDMZ0ipTdwHxu1L+4GcawQB8TEi4n\ns7RM54Gu6Wol9MsDE9yiu4ZCkkU1BNjga/AAfCrjAoGAJUl1V2BFiZf8GtX6HECU\nuYCvSlsHy9LcmWyneMx3imNll75G6GDXrcxd366SbP2+aicwqdBYZ+u9gm+8fTcc\nLdE0rrYKyk+ZeqenDijXPQflSxP+FnGJ+oHB49mM3DFlW1i+245UivaNO+mUWoIG\nvKYKXZysl/ay7c6ZZwSFuIY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "mybuildserviceaccount@kubernetestutorial-338511.iam.gserviceaccount.com",
+  "client_id": "106057012912288986243",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mybuildserviceaccount%40kubernetestutorial-338511.iam.gserviceaccount.com"
+}
