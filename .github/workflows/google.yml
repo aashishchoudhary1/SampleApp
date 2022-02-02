@@ -16,7 +16,7 @@ env:
   GKE_ZONE: us-central1-c   # Add your cluster zone here.
   DEPLOYMENT_NAME: gke-test # Add your deployment name here.
   IMAGE: sample 
-  GITHUB_SHA: 234400edb5213afc2b04f88a8b40a1a97571a1ce
+  GITHUB_SHA: be64262094ec6f74f418d92cdff2c7988a1f6a3e
 
 jobs:
   setup-build-publish-deploy:
@@ -31,7 +31,7 @@ jobs:
     # Setup gcloud CLI
     - uses: google-github-actions/setup-gcloud@94337306dda8180d967a56932ceb4ddcf01edae7
       with:
-        service_account_key: 234400edb5213afc2b04f88a8b40a1a97571a1ce
+        service_account_key: be64262094ec6f74f418d92cdff2c7988a1f6a3e
         project_id: kubernetestutorial-338511
 
     # Configure Docker to use the gcloud command-line tool as a credential
@@ -44,7 +44,7 @@ jobs:
       with:
         cluster_name: ${{ env.GKE_CLUSTER }}
         location: ${{ env.GKE_ZONE }}
-        credentials: 234400edb5213afc2b04f88a8b40a1a97571a1ce
+        credentials: kubernetestutorial-338511-be64262094ec.json
 
     # Build the Docker image
     - name: Build
