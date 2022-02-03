@@ -44,7 +44,7 @@ jobs:
       with:
         cluster_name: ${{ env.GKE_CLUSTER }}
         location: ${{ env.GKE_ZONE }}
-        credentials: kubernetestutorial-338511-be64262094ec.json
+        credentials: ./kubernetestutorial-338511-be64262094ec.json
 
     # Build the Docker image
     - name: Build
