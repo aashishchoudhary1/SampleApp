@@ -37,7 +37,7 @@ jobs:
     - id: 'auth'
       uses: 'google-github-actions/auth@v0'
       with:
-        credentials_json: be64262094ec6f74f418d92cdff2c7988a1f6a3e
+        credentials_json: kubernetestutorial-338511-be64262094ec.json
 
     # Setup gcloud CLI
     - name: Set up Cloud SDK
