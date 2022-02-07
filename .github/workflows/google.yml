@@ -1,4 +1,4 @@
-name: Deploy simple hello app to GKE
+name: Deploy simple hello app to GKE1
 
 on:
   push:
