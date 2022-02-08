@@ -28,7 +28,7 @@ jobs:
       with:
         java-version: '11'
         distribution: 'adopt'
-    - run: mvn clean install
+    - run: mvn package -Dmaven.test.skip
     - run: mkdir staging && cp target/*.jar staging
     
     # Configure Workload Identity Federation and generate an access token.
