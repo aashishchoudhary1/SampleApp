@@ -17,6 +17,7 @@ kind: Deployment
 metadata:
   name: gke-hello-app
 spec:
+  progressDeadlineSeconds: 3600
   replicas: 2
   selector:
     matchLabels:
