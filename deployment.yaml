@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: hello-app
-        image: gcr.io/kubernetestutorial-338511/sample:1.0
+        image: gcr.io/kubernetestutorial-338511/springbootactuator:latest
         ports:
         - containerPort: 8080
         resources:
