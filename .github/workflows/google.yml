@@ -30,11 +30,7 @@ jobs:
         distribution: 'adopt'
     - run: mvn clean install
     - run: mkdir staging && cp target/*.jar staging
-    - uses: actions/upload-artifact@v2
-       with:
-         name: Package
-         path: staging
-
+    
     # Configure Workload Identity Federation and generate an access token.
     #- id: 'auth'
     #  name: 'Authenticate to Google Cloud'
