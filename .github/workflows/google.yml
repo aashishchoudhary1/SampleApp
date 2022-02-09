@@ -56,6 +56,11 @@ jobs:
       uses: google-github-actions/setup-gcloud@v0
     - name: 'Use gcloud CLI'
       run: 'gcloud info'
+    - run: |
+        # Set up docker to authenticate
+        # via gcloud command-line tool.
+        gcloud auth configure-docker
+
     - name: Build
       run: |-
         docker build \
