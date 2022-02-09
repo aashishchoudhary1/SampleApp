@@ -36,7 +36,7 @@ spec:
       - name: hello-app
         image: gcr.io/kubernetestutorial-338511/sample.jar:latest
         ports:
-        - containerPort: 8085
+        - containerPort: 8087
         resources:
           requests:
             cpu: 100m
@@ -50,7 +50,7 @@ metadata:
 spec:
   type: LoadBalancer
   ports:
-    - port: 8085
-      targetPort: 8085
+    - port: 8087
+      targetPort: 8087
   selector:
     app: gke-hello-app
