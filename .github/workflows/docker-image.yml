@@ -23,7 +23,9 @@ jobs:
     - name: Build with Maven
       run: mvn -B -DskipTests package --file pom.xml
     - name: copy file  
-      run: mkdir staging && cp target/*.jar staging
+      run: mkdir staging && cp target/*.jar staging/
+    - name: chk folder details
+      run: ls -la /app/staging
     - uses: actions/checkout@v4
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
