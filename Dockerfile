@@ -1,4 +1,8 @@
-FROM maven:3.8.7-eclipse-temurin-17-alpine AS build
+FROM eclipse-temurin:17-jdk-alpine AS build
+WORKDIR /workspace/app
+
+# Install Maven
+RUN apk add --no-cache maven
 WORKDIR /workspace/app
 
 # Copy pom.xml first for better layer caching
