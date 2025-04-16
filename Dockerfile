@@ -1,6 +1,17 @@
-FROM maven:3.9.5-eclipse-temurin-17 AS build
+FROM maven:3.8.7-eclipse-temurin-17-alpine AS build
+WORKDIR /workspace/app
+
+# Copy pom.xml first for better layer caching
+COPY pom.xml .
+# This step will cache dependencies if pom.xml doesn't change
+RUN mvn dependency:go-offline
+
+# Copy source code
+COPY src ./src
+
+# Build the application
+RUN mvn clean package -DskipTests
 WORKDIR /app
-COPY . .
 #FROM openjdk:8
 FROM openjdk:17-jdk-slim
 #ARG JAR_FILE=/home/runner/work/SampleApp/SampleApp/target/sample.jar
