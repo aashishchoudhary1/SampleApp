@@ -1,9 +1,11 @@
+FROM maven:3.9.5-eclipse-temurin-17 AS build
+WORKDIR /app
 COPY . .
-FROM openjdk:8
+#FROM openjdk:8
+FROM openjdk:17-jdk-slim
 #ARG JAR_FILE=/home/runner/work/SampleApp/SampleApp/target/sample.jar
 #COPY ${JAR_FILE} sample.jar
 # Set working directory
-WORKDIR /app
 # Add a volume pointing to /tmp
 RUN mvn clean package -DskipTests
 COPY --from=build /app/target/*.jar sample.jar
